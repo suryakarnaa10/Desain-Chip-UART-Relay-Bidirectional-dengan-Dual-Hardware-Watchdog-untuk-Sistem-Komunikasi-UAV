@@ -1,0 +1,19 @@
+Design Name: sistem_lengkap
+Run Directory: /openlane/designs/dtlst_design/runs/RUN_2026.06.20_15.32.45
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/dtlst_design/runs/RUN_2026.06.20_15.32.45/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/dtlst_design/runs/RUN_2026.06.20_15.32.45/logs/signoff/39-sistem_lengkap.lef.lvs.log
+Number of nets: 1567                       |Number of nets: 1567                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/dtlst_design/runs/RUN_2026.06.20_15.32.45/logs/signoff/41-arc.log
+Pin violations: 0
+Net violations: 0

@@ -1,0 +1,7 @@
+
+65. Executing CHECK pass (checking for obvious problems).
+Checking module sistem_lengkap...
+Warning: Wire sistem_lengkap.\txd_raspi is used but has no driver.
+Warning: Wire sistem_lengkap.\txd_jetson is used but has no driver.
+Warning: Wire sistem_lengkap.\reset_n_fc is used but has no driver.
+Found and reported 3 problems.

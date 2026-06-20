@@ -1,0 +1,197 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO sistem_lengkap
+  CLASS BLOCK ;
+  FOREIGN sistem_lengkap ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 179.315 BY 190.035 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 29.005 10.640 30.605 177.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 70.975 10.640 72.575 177.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 112.945 10.640 114.545 177.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 154.915 10.640 156.515 177.040 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 34.120 173.660 35.720 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 75.600 173.660 77.200 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 117.080 173.660 118.680 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 158.560 173.660 160.160 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 25.705 10.640 27.305 177.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 67.675 10.640 69.275 177.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 109.645 10.640 111.245 177.040 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 151.615 10.640 153.215 177.040 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 30.820 173.660 32.420 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 72.300 173.660 73.900 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 113.780 173.660 115.380 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 155.260 173.660 156.860 ;
+    END
+  END VPWR
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.852000 ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END clk
+  PIN heartbeat_fc
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
+    PORT
+      LAYER met2 ;
+        RECT 157.870 0.000 158.150 4.000 ;
+    END
+  END heartbeat_fc
+  PIN heartbeat_jetson
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 138.550 186.035 138.830 190.035 ;
+    END
+  END heartbeat_jetson
+  PIN initialize
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 175.315 146.240 179.315 146.840 ;
+    END
+  END initialize
+  PIN reset_n_fc
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.795200 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 81.640 4.000 82.240 ;
+    END
+  END reset_n_fc
+  PIN rxd_jetson
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met2 ;
+        RECT 77.370 0.000 77.650 4.000 ;
+    END
+  END rxd_jetson
+  PIN rxd_raspi
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 166.640 4.000 167.240 ;
+    END
+  END rxd_raspi
+  PIN txd_jetson
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.795200 ;
+    PORT
+      LAYER met2 ;
+        RECT 58.050 186.035 58.330 190.035 ;
+    END
+  END txd_jetson
+  PIN txd_raspi
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.795200 ;
+    PORT
+      LAYER met3 ;
+        RECT 175.315 61.240 179.315 61.840 ;
+    END
+  END txd_raspi
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 173.420 176.885 ;
+      LAYER met1 ;
+        RECT 4.670 10.640 173.720 177.040 ;
+      LAYER met2 ;
+        RECT 0.090 185.755 57.770 186.035 ;
+        RECT 58.610 185.755 138.270 186.035 ;
+        RECT 139.110 185.755 171.940 186.035 ;
+        RECT 0.090 4.280 171.940 185.755 ;
+        RECT 0.650 4.000 77.090 4.280 ;
+        RECT 77.930 4.000 157.590 4.280 ;
+        RECT 158.430 4.000 171.940 4.280 ;
+      LAYER met3 ;
+        RECT 0.065 167.640 175.315 176.965 ;
+        RECT 4.400 166.240 175.315 167.640 ;
+        RECT 0.065 147.240 175.315 166.240 ;
+        RECT 0.065 145.840 174.915 147.240 ;
+        RECT 0.065 82.640 175.315 145.840 ;
+        RECT 4.400 81.240 175.315 82.640 ;
+        RECT 0.065 62.240 175.315 81.240 ;
+        RECT 0.065 60.840 174.915 62.240 ;
+        RECT 0.065 10.715 175.315 60.840 ;
+      LAYER met4 ;
+        RECT 24.215 26.015 25.305 160.305 ;
+        RECT 27.705 26.015 28.605 160.305 ;
+        RECT 31.005 26.015 67.275 160.305 ;
+        RECT 69.675 26.015 70.575 160.305 ;
+        RECT 72.975 26.015 109.245 160.305 ;
+        RECT 111.645 26.015 112.545 160.305 ;
+        RECT 114.945 26.015 151.215 160.305 ;
+        RECT 153.615 26.015 154.515 160.305 ;
+        RECT 156.915 26.015 159.785 160.305 ;
+  END
+END sistem_lengkap
+END LIBRARY
+

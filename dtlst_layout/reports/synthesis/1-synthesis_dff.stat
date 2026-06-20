@@ -1,0 +1,27 @@
+
+58. Printing statistics.
+
+=== sistem_lengkap ===
+
+   Number of wires:               1521
+   Number of wire bits:           1787
+   Number of public wires:          37
+   Number of public wire bits:     276
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1760
+     $_ANDNOT_                     321
+     $_AND_                         28
+     $_MUX_                        405
+     $_NAND_                        86
+     $_NOR_                         80
+     $_NOT_                         74
+     $_ORNOT_                       98
+     $_OR_                         204
+     $_XNOR_                        50
+     $_XOR_                        145
+     sky130_fd_sc_hd__dfrtp_2      106
+     sky130_fd_sc_hd__dfstp_2        4
+     sky130_fd_sc_hd__dfxtp_2      159
+
