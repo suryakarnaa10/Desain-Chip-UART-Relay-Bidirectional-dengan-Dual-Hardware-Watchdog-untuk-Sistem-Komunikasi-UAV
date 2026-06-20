@@ -1,1 +1,1 @@
-# UART-RelayDesain-IC-Bidirectional-dengan-Dual-Hardware-Watchdog-untuk-Sistem-Komunikasi-UAV
+# Desain-Chip-UART-Relay-Bidirectional-dengan-Dual-Hardware-Watchdog-untuk-Sistem-Komunikasi-UAV
