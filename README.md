@@ -3,7 +3,6 @@
 
 Desain tata letak sirkuit terpadu (ASIC) yang mengintegrasikan **relay UART dua arah** dan **dual hardware watchdog** untuk menjamin keandalan jalur komunikasi serial antara komputer misi (Jetson), RasPi, dan Flight Controller (FC) pada wahana udara nirawak (UAV). Desain diimplementasikan dari RTL hingga GDSII menggunakan alur OpenLane dengan PDK SkyWater Sky130.
 
-Repositori ini merupakan bagian dari tugas akhir (skripsi) dan basis pengajuan **Desain Tata Letak Sirkuit Terpadu (DTLST)** ke DJKI.
 
 ---
 
