@@ -111,13 +111,6 @@ GDSII final dapat dibuka dengan [KLayout](https://www.klayout.de/) menggunakan t
 
 ---
 
-## Catatan
-
-- Desain ini ditujukan untuk perlindungan **Desain Tata Letak Sirkuit Terpadu (DTLST)**, yang melindungi orisinalitas tata letak sirkuit, bukan metode/invensi (paten).
-- Angka frekuensi maksimum (±213 MHz) merupakan estimasi teoretis berdasarkan analisis waktu statik (STA), bukan hasil pengujian fisik.
-
----
-
 ## Lisensi
 
 Hak cipta atas desain tata letak ini dimiliki oleh penulis. Penggunaan kembali memerlukan izin.
